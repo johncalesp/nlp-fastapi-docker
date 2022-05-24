@@ -1,0 +1,10 @@
+---
+version: '3'
+
+services:
+  nlp:
+    image: nlp-fastapi:1.0
+    hostname: nlp-fastapi
+    container_name: nlp-fastapi
+    ports:
+      - "8000:8000"
