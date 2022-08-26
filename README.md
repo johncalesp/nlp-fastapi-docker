@@ -14,7 +14,7 @@ Fully connected -> ReLU -> Dropout -> Fully connected.
 First, I trained the model freezing the weights of the base distilbert model, so the upper layers could converge.
 Finally, I set **param.requires_grad = True** to train the all the layers for this specific task.
 After the training phase, I saved the model's parameters.
-
+Link to google colab notebook https://colab.research.google.com/drive/1uyU4bOXThgmGWAcN5Bl3v7_ikT1aRD-2?usp=sharing
 ## 2. Building the backend with FastAPI
 
 The advantage of FastAPI is its excellent documentation and Interactive API docs to test the endpoints.
